@@ -2,7 +2,6 @@ package za.co.digitalhustlers.weatherapp.data.db.entity
 
 import androidx.room.Embedded
 import com.google.gson.annotations.SerializedName
-import za.co.digitalhustlers.weatherapp.data.db.entity.Condition
 
 data class Day(
     @SerializedName("avgtemp_c")
